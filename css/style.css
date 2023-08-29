@@ -84,6 +84,31 @@ main {
 .list-item {
     font-size: 16px;
     font-weight: normal;
+}
 
+.check {
+    width: 16px;
+	height: 16px;
+    font-size: 10px;
+    color: #63c0a9;
+    background-color: white;
+    border-style: solid;
+    border-width: 1,5px;
+    border-color: #63c0a9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cross {
+    width: 16px;
+	height: 16px;
+    font-size: 10px;
+    color: #f17f7a;
+    background-color: white;
+    border-style: solid;
+    border-width: 1,5px;
+    border-color: #f17f7a;
+    border-radius: 50%;
+    display: inline-block;
 }
 
