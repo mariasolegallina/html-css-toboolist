@@ -50,6 +50,7 @@ main {
     padding: 6px 8px;
     border-radius: 5px;
     margin-right: 10px;
+    font-size: 12px;
 
 }
 
@@ -73,4 +74,16 @@ main {
 }
 
 /* task list */
+.list-title {
+    color: #444851;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.list-item {
+    font-size: 16px;
+    font-weight: normal;
+
+}
 
