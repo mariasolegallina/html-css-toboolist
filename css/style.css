@@ -1,18 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* page header */
-.main-header {
+body {
+    background-color: #f7f8f9;
+}
+
+/* PAGE HEADER */
+.page-header {
+    background-color: white;
     color: #051a31;
-    padding: 10px;
+    padding: 10px 25px;
     font-size: 38px;
     font-weight: bold;
 }
 
-.logo{
+.logo {
     vertical-align: middle;
+}
+
+/* MAIN */
+main {
+    padding-top: 40px;
+}
+
+.container {
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
