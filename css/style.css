@@ -35,7 +35,7 @@ main {
 
 .container {
     background-color: white;
-    max-width: 1024px;
+    max-width: 940px;
     margin: 0 auto;
     border-radius: 5px;
     /* padding: 15px 45px; sostituito da padding in .fake-buttons*/
@@ -78,7 +78,7 @@ main {
 
 /* task lists */
 .task-lists-container {
-    padding: 35px 45px 45px 45px;
+    padding: 35px 45px 35px 45px;
 }
 
 .list-title {
@@ -108,6 +108,7 @@ main {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    margin-right: 6px;
 }
 
 .cross {
@@ -123,5 +124,38 @@ main {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    margin-right: 6px;
 }
 
+/* badge */
+.badge {
+    color: white;
+    font-size: 10px;
+    padding: 6px 8px;
+    border-radius: 10px;
+    
+}
+
+.editorial {
+    background-color: #46acf2;
+}
+
+.q1-goals {
+    background-color: #9b72e5;
+}
+
+.recruiting {
+    background-color: #63c0a9;
+}
+
+.mobile {
+    background-color: #f29d33;
+}
+
+.website {
+    background-color: #d863a0;
+}
+
+.sales {
+    background-color: #b0c925;
+}
