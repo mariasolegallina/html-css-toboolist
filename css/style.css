@@ -38,12 +38,15 @@ main {
     max-width: 1024px;
     margin: 0 auto;
     border-radius: 5px;
-    padding: 15px 45px;
+    /* padding: 15px 45px; sostituito da padding in .fake-buttons*/
 }
 
 /* fake-buttons */
 .fake-buttons {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; sostituito da padding in .fake-buttons*/
+    padding: 15px 45px 10px 45px;
+    border-bottom: solid 2px #f7f8f9;
+
 }
 
 .fbutton-style {
@@ -73,17 +76,23 @@ main {
     border-color: #d0d5d8;
 }
 
-/* task list */
+/* task lists */
+.task-lists-container {
+    padding: 35px 45px 45px 45px;
+}
+
 .list-title {
     color: #444851;
     font-size: 18px;
     font-weight: bold;
-
+    margin-bottom: 20px;
 }
 
 .list-item {
     font-size: 16px;
     font-weight: normal;
+    /* margin-bottom: 15px; */
+    padding: 8px 0;
 }
 
 .check {
@@ -97,6 +106,8 @@ main {
     border-color: #63c0a9;
     border-radius: 50%;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .cross {
@@ -110,5 +121,7 @@ main {
     border-color: #f17f7a;
     border-radius: 50%;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
